@@ -1,73 +1,54 @@
 
   import Chatbot from "https://cdn.n8nchatui.com/v1/pole-embed-yard.js";
   Chatbot.init({
-    "n8nChatUrl": "https://atharstackdev.app.n8n.cloud/webhook/f2bae9a6-9aac-47eb-9517-9cb72aea64c1/chat",
+    "n8nChatUrl": "YOUR_N8N_CHAT_TRIGGER_NODE_WEBHOOK_URL",
     "metadata": {}, // Include any custom data to send with each message to your n8n workflow
     "theme": {
       "button": {
-        "backgroundColor": "#ffc8b8",
+        "backgroundColor": "#000000",
         "right": 20,
         "bottom": 20,
         "size": 59,
-        "iconColor": "#373434",
-        "customIconSrc": "https://www.svgrepo.com/show/362552/chat-centered-dots-bold.svg",
-        "customIconSize": 71,
+        "iconColor": "#ffffff",
+        "customIconSrc": "http://ngdjcompany.com/wp-content/uploads/2025/10/Untitled-design.png",
+        "customIconSize": 100,
         "customIconBorderRadius": 16,
         "autoWindowOpen": {
           "autoOpen": true,
           "openDelay": 2
         },
-        "borderRadius": "circle",
-        "draggable": false
+        "borderRadius": "circle"
       },
       "tooltip": {
         "showTooltip": true,
-        "tooltipMessage": "Welcome! Need Help?",
-        "tooltipBackgroundColor": "#fff9f6",
-        "tooltipTextColor": "#1c1c1c",
-        "tooltipFontSize": 15,
-        "hideTooltipOnMobile": true
-      },
-      "direction": "ltr",
-      "allowProgrammaticMessage": false,
-      "consentScreen": {
-        "enabled": false,
-        "title": "User Agreement",
-        "message": "By using this chatbot, you agree to our\n<p><a href='/terms' target='_blank' style='color: black; text-decoration: underline; text-decoration-color: black;'>Terms & Conditions</a></p>",
-        "textColor": "#1e1e1f",
-        "acceptButtonColor": "#f36539",
-        "acceptButtonTextColor": "#ffffff",
-        "acceptButtonText": "Agree & Start Chatting",
-        "backgroundColor": "#ffffff",
-        "backdropColor": "#00000"
+        "tooltipMessage": "Let's Party!",
+        "tooltipBackgroundColor": "#FF4E5B",
+        "tooltipTextColor": "#ffffff",
+        "tooltipFontSize": 15
       },
       "chatWindow": {
         "borderRadiusStyle": "rounded",
         "avatarBorderRadius": 25,
         "messageBorderRadius": 6,
         "showTitle": true,
-        "title": "Glow Skin Med Spa ",
-        "titleAvatarSrc": "https://www.svgrepo.com/show/362552/chat-centered-dots-bold.svg",
+        "title": "AI ASSISTANT",
+        "titleAvatarSrc": "http://ngdjcompany.com/wp-content/uploads/2025/09/cropped-Untitled-design-2025-09-24T003301.154-1.png",
         "avatarSize": 40,
-        "welcomeMessage": "Hello! how can i help you?",
-        "errorMessage": "Currently unavailable ",
+        "welcomeMessage": "Hi! How may I help you?",
+        "errorMessage": "Please connect me to n8n first",
         "backgroundColor": "#ffffff",
-        "height": 600,
-        "width": 400,
+        "height": 475,
+        "width": 375,
         "fontSize": 16,
-        "starterPrompts": [
-          "Who are you?",
-          "What do you do?"
-        ],
         "starterPromptFontSize": 15,
         "renderHTML": false,
         "clearChatOnReload": false,
         "showScrollbar": false,
         "botMessage": {
-          "backgroundColor": "#FFC8B8",
-          "textColor": "#000000",
+          "backgroundColor": "#FF4E5B",
+          "textColor": "#ffffff",
           "showAvatar": true,
-          "avatarSrc": "https://fixthisappliance.com/wp-content/uploads/Untitled-design800.png",
+          "avatarSrc": "http://ngdjcompany.com/wp-content/uploads/2025/10/Untitled-design800.png",
           "showCopyToClipboardIcon": false
         },
         "userMessage": {
@@ -80,12 +61,18 @@
           "placeholder": "Type your query",
           "backgroundColor": "#ffffff",
           "textColor": "#1e1e1f",
-          "sendButtonColor": "#1f349e",
-          "maxChars": 50,
+          "sendButtonColor": "#FF4E5B",
+          "maxChars": 75,
           "maxCharsWarningMessage": "You exceeded the characters limit. Please input less than 50 characters.",
-          "autoFocus": false,
+          "autoFocus": true,
           "borderRadius": 6,
           "sendButtonBorderRadius": 50
+        },
+        "footer": {
+          "text": "Powered By",
+          "company": "Adboex",
+          "companyLink": "https://adboex.com/",
+          "textColor": "#f42525"
         }
       }
     }
