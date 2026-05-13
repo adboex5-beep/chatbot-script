@@ -1,7 +1,7 @@
 
   import Chatbot from "https://cdn.n8nchatui.com/v1/pole-embed-yard.js";
   Chatbot.init({
-    "n8nChatUrl": "https://atharstackdev.app.n8n.cloud/webhook/f2bae9a6-9aac-47eb-9517-9cb72aea64c1/chat",
+    "n8nChatUrl": "https://jawaddevinitymarketing.n8n-wsk.com/webhook/af22f17d-ea35-42c5-a849-1a96ee9a0f0d/chat",
     "metadata": {}, // Include any custom data to send with each message to your n8n workflow
     "theme": {
       "button": {
