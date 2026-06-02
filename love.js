@@ -1,4 +1,4 @@
-<script type="module" defer>
+
   import Chatbot from "https://cdn.n8nchatui.com/v1/pole-embed-yard.js";
   Chatbot.init({
     "n8nChatUrl": "https://jawaddevinitymarketing.n8n-wsk.com/webhook/af22f17d-ea35-42c5-a849-1a96ee9a0f0d/chat",
@@ -90,4 +90,4 @@
       }
     }
     });
-  </script>
+
